@@ -28,8 +28,17 @@ mjml
     //- body
     mj-body(background-color='#efefef')
         //- content
-        block content     
+        block content
+        //- signature
+        block signature
+            include ../includes/_signature   
+        //- syrendre
+        block syrendre
+            include ../includes/_syrendre
+        //- footer
+        block footer
+            include ../includes/_footer
         //- legislation
-            block legislation
-            include ../includes/_legis
+        block reglement
+            include ../includes/_reglement
 

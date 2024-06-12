@@ -52,7 +52,7 @@
         <mj-text padding-top="0" padding-bottom="0" mj-class="d-text"><strong>ECOSUP Commerce</strong> vous ouvre ses portes ce </mj-text>
         <mj-text align="center" mj-class="d-date">Samedi 25 mai de 9h30 à 13h.</mj-text>
         <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">Venez découvrir notre campus et rencontrer nos intervenants professionnels.</mj-text>
-        <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">Des questions ? Alors rendez-vous ce samedi, toute notre équipe se tiendra à votre disposition pour présenter l'ensemble de nos formations.        </mj-text>
+        <mj-text padding-top="0" padding-bottom="0" mj-class="d-text">Des questions ? Alors rendez-vous ce samedi, toute notre équipe se tiendra à votre disposition pour présenter l'ensemble de nos formations.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff">
@@ -102,6 +102,14 @@
           <mj-social-element background-color="#AA3E17" name="instagram" href="https://www.instagram.com/ecosup.campus"></mj-social-element>
           <mj-social-element background-color="#AA3E17" name="linkedin" href="https://linkedin.com/company/ecosup-campus"></mj-social-element>
         </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="250px">
+        <mj-text padding="0 30px" mj-class="d-admin">Cet email a été envoyé à {{contact.EMAIL}}, vous l'avez reçu car vous êtes inscrit à Ecosup Campus.</mj-text>
+        <mj-text padding="0 30px" mj-class="d-admin"><a href="{{ unsubscribe }}">Se désinscrire</a></mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text padding="0 25px" mj-class="d-admin">©2024 ECOSUP CAMPUS</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
